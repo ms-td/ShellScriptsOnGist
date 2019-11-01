@@ -1,4 +1,4 @@
-# ShellScriptsOnGist
+# Shell Scripts On Gist
 
 My shell-scripts collection on Gist.
 There are based in POSIX as much as possible.
@@ -10,5 +10,5 @@ The License which eatch shell-scripts is based on itselves.
 
 # List
 
-- [ulid.sh](./ulid/ulid.sh) :: Generating ULID.
-- [toXPATH.sh](./toXPATH/toXPATH.sh) :: WIP. Exchanging to (like) XPATH from validated XML.
+- ulid.sh :: Generating [ULID](https://github.com/ulid/spec).
+- toXPATH.sh :: WIP. Exchanging format to (like) XPATH from validated XML.
