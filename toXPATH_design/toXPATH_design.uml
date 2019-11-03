@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_6lDBQP4VEemw0d6bQwUDhg" name="toXPATH_design">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_6mGKIP4VEemw0d6bQwUDhg">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Activity" xmi:id="_8C44QP4VEemw0d6bQwUDhg" name="toXPAHT.sh" node="_HsL2oP4WEemw0d6bQwUDhg _HsNr0P4WEemw0d6bQwUDhg _HsQIEP4WEemw0d6bQwUDhg _HsR9QP4WEemw0d6bQwUDhg _HsTycP4WEemw0d6bQwUDhg _HsVnoP4WEemw0d6bQwUDhg _HsXc0P4WEemw0d6bQwUDhg _HsZ5EP4WEemw0d6bQwUDhg _HsbuQP4WEemw0d6bQwUDhg _HsdjcP4WEemw0d6bQwUDhg _HsfYoP4WEemw0d6bQwUDhg _HshN0P4WEemw0d6bQwUDhg _HsjqEP4WEemw0d6bQwUDhg _HsmGUP4WEemw0d6bQwUDhg _HsoikP4WEemw0d6bQwUDhg _Hsq-0P4WEemw0d6bQwUDhg _HstbEP4WEemw0d6bQwUDhg _Hsv3UP4WEemw0d6bQwUDhg _HsyTkP4WEemw0d6bQwUDhg">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_mmM3wP4WEemw0d6bQwUDhg">
+      <body>Validated XML file
+Validated XML string</body>
+    </ownedComment>
+    <ownedComment xmi:type="uml:Comment" xmi:id="_mmM3wf4WEemw0d6bQwUDhg">
+      <body>struct Stack {
+own-tag own-cnt
+tag-1-name tag-1-cnt
+tag-2-name tag-2-cnt
+...
+}</body>
+    </ownedComment>
+    <ownedComment xmi:type="uml:Comment" xmi:id="_mmNe0P4WEemw0d6bQwUDhg">
+      <body>Sample
+/plan[1]/method[1]@term long
+/plan[1]/method[1] atack
+/plan[1]/method[1]/text[1] ok
+/plan[1]/method[2]@term short
+/plan[1]/method[2] spoile
+/plan[1]/method[2]/text[1] ng</body>
+    </ownedComment>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_HsIzUP4WEemw0d6bQwUDhg" target="_HsoikP4WEemw0d6bQwUDhg" source="_HsmGUP4WEemw0d6bQwUDhg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_HsJaYP4WEemw0d6bQwUDhg" target="_HsoikP4WEemw0d6bQwUDhg" source="_HsjqEP4WEemw0d6bQwUDhg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_HsJaYf4WEemw0d6bQwUDhg" target="_HsbuQP4WEemw0d6bQwUDhg" source="_HsoikP4WEemw0d6bQwUDhg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_HsKBcP4WEemw0d6bQwUDhg" name="T" target="_Hsq-0P4WEemw0d6bQwUDhg" source="_HsbuQP4WEemw0d6bQwUDhg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_HsKBcf4WEemw0d6bQwUDhg" target="_HsbuQP4WEemw0d6bQwUDhg" source="_Hsq-0P4WEemw0d6bQwUDhg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_HsKBcv4WEemw0d6bQwUDhg" name="close-tag" target="_HsfYoP4WEemw0d6bQwUDhg" source="_HsTycP4WEemw0d6bQwUDhg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_HsKogP4WEemw0d6bQwUDhg" name="F" target="_HsXc0P4WEemw0d6bQwUDhg" source="_Hsv3UP4WEemw0d6bQwUDhg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_HsKogf4WEemw0d6bQwUDhg" name="any" target="_HstbEP4WEemw0d6bQwUDhg" source="_HsTycP4WEemw0d6bQwUDhg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_HsKogv4WEemw0d6bQwUDhg" name="T" target="_HsyTkP4WEemw0d6bQwUDhg" source="_Hsv3UP4WEemw0d6bQwUDhg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_HsLPkP4WEemw0d6bQwUDhg" target="_HsNr0P4WEemw0d6bQwUDhg" source="_HsyTkP4WEemw0d6bQwUDhg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_HsLPkf4WEemw0d6bQwUDhg" name="F" target="_Hsv3UP4WEemw0d6bQwUDhg" source="_HsbuQP4WEemw0d6bQwUDhg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_HsLPkv4WEemw0d6bQwUDhg" target="_Hsv3UP4WEemw0d6bQwUDhg" source="_HsfYoP4WEemw0d6bQwUDhg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_Vpx9cP4XEemw0d6bQwUDhg" target="_HsQIEP4WEemw0d6bQwUDhg" source="_HsL2oP4WEemw0d6bQwUDhg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_hSd30P4XEemw0d6bQwUDhg" target="_HsR9QP4WEemw0d6bQwUDhg" source="_HsQIEP4WEemw0d6bQwUDhg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_mBekoP4XEemw0d6bQwUDhg" target="_HsdjcP4WEemw0d6bQwUDhg" source="_HsR9QP4WEemw0d6bQwUDhg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_qYNUUP4XEemw0d6bQwUDhg" target="_HsVnoP4WEemw0d6bQwUDhg" source="_HsdjcP4WEemw0d6bQwUDhg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_x5HhAP4XEemw0d6bQwUDhg" target="_Hsv3UP4WEemw0d6bQwUDhg" source="_HsVnoP4WEemw0d6bQwUDhg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_gyVM8P4cEemw0d6bQwUDhg" target="_Hsv3UP4WEemw0d6bQwUDhg" source="_HstbEP4WEemw0d6bQwUDhg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_w8FewP4cEemw0d6bQwUDhg" target="_HsTycP4WEemw0d6bQwUDhg" source="_HsXc0P4WEemw0d6bQwUDhg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_z2I1EP4cEemw0d6bQwUDhg" name="start-tag" target="_HshN0P4WEemw0d6bQwUDhg" source="_HsTycP4WEemw0d6bQwUDhg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_2r3FAP4cEemw0d6bQwUDhg" target="_HsZ5EP4WEemw0d6bQwUDhg" source="_HshN0P4WEemw0d6bQwUDhg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_5EzSUP4cEemw0d6bQwUDhg" name="F" target="_HsmGUP4WEemw0d6bQwUDhg" source="_HsZ5EP4WEemw0d6bQwUDhg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_8ju3UP4cEemw0d6bQwUDhg" name="T" target="_HsjqEP4WEemw0d6bQwUDhg" source="_HsZ5EP4WEemw0d6bQwUDhg"/>
+    <node xmi:type="uml:InitialNode" xmi:id="_HsL2oP4WEemw0d6bQwUDhg" name="Initial" outgoing="_Vpx9cP4XEemw0d6bQwUDhg"/>
+    <node xmi:type="uml:ActivityFinalNode" xmi:id="_HsNr0P4WEemw0d6bQwUDhg" name="End" incoming="_HsLPkP4WEemw0d6bQwUDhg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_HsQIEP4WEemw0d6bQwUDhg" name="Parsing option" incoming="_Vpx9cP4XEemw0d6bQwUDhg" outgoing="_hSd30P4XEemw0d6bQwUDhg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_HsR9QP4WEemw0d6bQwUDhg" name="input = (XML string)" incoming="_hSd30P4XEemw0d6bQwUDhg" outgoing="_mBekoP4XEemw0d6bQwUDhg"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_HsTycP4WEemw0d6bQwUDhg" name="Pattern is ..." incoming="_w8FewP4cEemw0d6bQwUDhg" outgoing="_HsKBcv4WEemw0d6bQwUDhg _HsKogf4WEemw0d6bQwUDhg _z2I1EP4cEemw0d6bQwUDhg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_HsVnoP4WEemw0d6bQwUDhg" name="Stack[0] = ((ROOT 1)), N = 1" incoming="_qYNUUP4XEemw0d6bQwUDhg" outgoing="_x5HhAP4XEemw0d6bQwUDhg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_HsXc0P4WEemw0d6bQwUDhg" name="Pattern = ( Next line input)" incoming="_HsKogP4WEemw0d6bQwUDhg" outgoing="_w8FewP4cEemw0d6bQwUDhg"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_HsZ5EP4WEemw0d6bQwUDhg" name="tag-name is exsist in Stack[N]" incoming="_2r3FAP4cEemw0d6bQwUDhg" outgoing="_5EzSUP4cEemw0d6bQwUDhg _8ju3UP4cEemw0d6bQwUDhg"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_HsbuQP4WEemw0d6bQwUDhg" name="Option is exsit in tag" incoming="_HsJaYf4WEemw0d6bQwUDhg _HsKBcf4WEemw0d6bQwUDhg" outgoing="_HsKBcP4WEemw0d6bQwUDhg _HsLPkf4WEemw0d6bQwUDhg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_HsdjcP4WEemw0d6bQwUDhg" name="Normalize" incoming="_mBekoP4XEemw0d6bQwUDhg" outgoing="_qYNUUP4XEemw0d6bQwUDhg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_HsfYoP4WEemw0d6bQwUDhg" name="Delete Stack[N], N--" incoming="_HsKBcv4WEemw0d6bQwUDhg" outgoing="_HsLPkv4WEemw0d6bQwUDhg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_HshN0P4WEemw0d6bQwUDhg" name="Split (tag-name options ...)" incoming="_z2I1EP4cEemw0d6bQwUDhg" outgoing="_2r3FAP4cEemw0d6bQwUDhg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_HsjqEP4WEemw0d6bQwUDhg" name="Update (tag-name n+1) in Stack[N]" incoming="_8ju3UP4cEemw0d6bQwUDhg" outgoing="_HsJaYP4WEemw0d6bQwUDhg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_HsmGUP4WEemw0d6bQwUDhg" name="Create (tag-name 1) in Stack[N]" incoming="_5EzSUP4cEemw0d6bQwUDhg" outgoing="_HsIzUP4WEemw0d6bQwUDhg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_HsoikP4WEemw0d6bQwUDhg" name="Stack[N+1] = ((tag-name n)), N++" incoming="_HsIzUP4WEemw0d6bQwUDhg _HsJaYP4WEemw0d6bQwUDhg" outgoing="_HsJaYf4WEemw0d6bQwUDhg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_Hsq-0P4WEemw0d6bQwUDhg" name="printf (XPATH+option-name value)" incoming="_HsKBcP4WEemw0d6bQwUDhg" outgoing="_HsKBcf4WEemw0d6bQwUDhg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_HstbEP4WEemw0d6bQwUDhg" name="printf (XPATH value)" incoming="_HsKogf4WEemw0d6bQwUDhg" outgoing="_gyVM8P4cEemw0d6bQwUDhg"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_Hsv3UP4WEemw0d6bQwUDhg" name="input is end" incoming="_HsLPkf4WEemw0d6bQwUDhg _HsLPkv4WEemw0d6bQwUDhg _x5HhAP4XEemw0d6bQwUDhg _gyVM8P4cEemw0d6bQwUDhg" outgoing="_HsKogP4WEemw0d6bQwUDhg _HsKogv4WEemw0d6bQwUDhg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_HsyTkP4WEemw0d6bQwUDhg" name="Delete ROOT" incoming="_HsKogv4WEemw0d6bQwUDhg" outgoing="_HsLPkP4WEemw0d6bQwUDhg"/>
+  </packagedElement>
+</uml:Model>
