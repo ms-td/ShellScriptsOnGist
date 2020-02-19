@@ -4,7 +4,7 @@
 
 Run `$> ./ulid.sh -h`
 
-![Design](./ulid-flow.svg "")
+![Design](./ulid-flow.svg "Desi")
 
 ## Requirement
 
