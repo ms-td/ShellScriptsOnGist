@@ -3,7 +3,8 @@
 ## Overview
 
 Run `$> ./ulid.sh -h`
-![Design](./ulid_sh.SVG "Design")
+
+![Design](./ulid-flow.svg "")
 
 ## Requirement
 
