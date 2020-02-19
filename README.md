@@ -15,12 +15,12 @@ The License which eatch shell-scripts is based on itselves.
 
 ## ulid.sh
 
-Standard reference source [ULID](https://github.com/ulid/spec).
+[Standard reference source ULID](https://github.com/ulid/spec).
 
-Flowchart ![Design](./ulid_design/ulid-flow.svg).
+![Flowchart](./ulid_design/ulid-flow.svg)
   
 ## toXPATH.sh
  
 WIP. Exchanging format to (like) XPATH from validated XML.
 
-Flowchart ![Design](./toXPATH_design/toXPATH_sh.SVG).
+![Flowchart](./toXPATH_design/toXPATH_sh.SVG)
