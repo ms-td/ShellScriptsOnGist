@@ -1,16 +1,17 @@
 # ulid.sh
 
-- TOC
- + [Overview](#overview)
- + [Flowchart](#flowchart)
- + [Reuirement](#requirement)
- + [Usage](#usage)
- + [License](#license)
- + [Author](#author)
+- [Overview](#overview)
+- [Flowchart](#flowchart)
+- [Reuirement](#requirement)
+- [Usage](#usage)
+- [License](#license)
+- [Author](#author)
 
 ## Overview
 
 Run `$> ./ulid.sh -h`
+
+Shell script source-code is [gist(github) ulid.sh](https://gist.github.com/td-shi/d7580d39265ddfd7f2f44358e53b21b6) .
 
 ## Flowchart
 
