@@ -10,17 +10,6 @@ The License which eatch shell-scripts is based on itselves.
 
 # List
 
-- [ulid.sh](#ulidsh)
-- [toXPATH.sh](#toxpathsh)
+- [About ulid.sh](./ulid/README.md)
+- [About toXPATH.sh](./toXPATH/README.md)
 
-## ulid.sh
-
-[Standard reference source ULID](https://github.com/ulid/spec).
-
-![Flowchart](./ulid_design/ulid-flow.svg)
-  
-## toXPATH.sh
- 
-WIP. Exchanging format to (like) XPATH from validated XML.
-
-![Flowchart](./toXPATH_design/toXPATH_sh.SVG)

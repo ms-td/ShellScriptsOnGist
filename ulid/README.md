@@ -11,11 +11,13 @@
 
 Run `$> ./ulid.sh -h`
 
-Shell script source-code is [gist(github) ulid.sh](https://gist.github.com/td-shi/d7580d39265ddfd7f2f44358e53b21b6) .
+Shell script source-code is [gist(github) ulid.sh](https://gist.github.com/search?q=user%3Atd-shi+filename%3A.sh+ulid) .
+
+[Standard reference source ULID](https://github.com/ulid/spec) .
 
 ## Flowchart
 
-[![Flowchart](./ulid-flow.svg "Flowchart")](https://www.draw.io/#Htd-shi%2FShellScriptsOnGist%2FUpdateImagesSVG%2Fulid_design%2Fulid-flow.svg)
+[![Flowchart](./ulid-flow.svg "Flowchart")](https://www.draw.io/#Htd-shi%2FShellScriptsOnGist%2FUpdateImagesSVG%2Fulid%2Fulid-flow.svg)
 
 ## Requirement
 
