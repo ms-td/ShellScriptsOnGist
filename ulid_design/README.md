@@ -1,17 +1,27 @@
-# Template-EPUB3
+# ulid.sh
+
+- TOC
+ + [Overview](#overview)
+ + [Flowchart](#flowchart)
+ + [Reuirement](#requirement)
+ + [Usage](#usage)
+ + [License](#license)
+ + [Author](#author)
 
 ## Overview
 
 Run `$> ./ulid.sh -h`
 
-[![Design](./ulid-flow.svg "Design")](https://www.draw.io/#Htd-shi%2FShellScriptsOnGist%2FUpdateImagesSVG%2Fulid_design%2Fulid-flow.svg)
+## Flowchart
+
+[![Flowchart](./ulid-flow.svg "Flowchart")](https://www.draw.io/#Htd-shi%2FShellScriptsOnGist%2FUpdateImagesSVG%2Fulid_design%2Fulid-flow.svg)
 
 ## Requirement
 
 - `/dev/urandom` (Linux random device)
-- cc (shell command.)
+- cc (shell POSIX command.)
 
-## Usage shell script
+## Usage
 
 ```
 $> ulid.sh
@@ -28,4 +38,4 @@ $> ulid.sh -u
 
 ## Author
 
-[ms-td](https://github.com/ms-td/)
+[TD](https://github.com/td-shi/)
