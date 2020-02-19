@@ -3,7 +3,8 @@
 ## Overview
 
 Run `$> ./ulid.sh -h`
-![Design](./ulid_sh.SVG "Design")
+
+[![Design](./ulid-flow.svg "Design")](https://www.draw.io/#Htd-shi%2FShellScriptsOnGist%2FUpdateImagesSVG%2Fulid_design%2Fulid-flow.svg)
 
 ## Requirement
 
