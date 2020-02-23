@@ -28,11 +28,11 @@ Shell script source-code is [gist(github) ulid.sh](https://gist.github.com/searc
 
 ```
 $> ulid.sh
-   01DNPS05T77C5WY933034FYZYP
+01DNPS05T77C5WY933034FYZYP
 $> ulid.sh -N 3 -l
-   01DNPSX1-DC7F-FM24-GEZK-5WXQ12P6V50W
+01DNPSX1-DC7F-FM24-GEZK-5WXQ12P6V50W
 $> ulid.sh -u
-   86300570-8720-4606-97CA-1D54CB02318D
+86300570-8720-4606-97CA-1D54CB02318D
 ```
 
 ## License
@@ -41,4 +41,4 @@ $> ulid.sh -u
 
 ## Author
 
-[TD](https://github.com/td-shi/)
+2020 [TD](https://github.com/td-shi/)
