@@ -1,9 +1,0 @@
-[submodule "ulid"]
-	path = ulid
-	url = https://gist.github.com/6a88bbaa8502e8373dd8e3833ef448fa.git
-[submodule "toXPATH"]
-	path = toXPATH
-	url = https://gist.github.com/37e07520c94e136b0230d627a4251378.git
-[submodule "toXML"]
-	path = toXML
-	url = https://gist.github.com/1cb0dd2b0918c942070cc7e6059d2bed.git
