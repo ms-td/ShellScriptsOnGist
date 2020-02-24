@@ -9,9 +9,7 @@ This repository is [CC0(Public domain)](https://creativecommons.org/publicdomain
 
 Licenses which eatch shell-scripts are based on itselves.
 
-# List
-
-- [Github Gist](https://gist.github.com/search?q=user%3Atd-shi+filename%3A.sh)
+# [List](https://gist.github.com/search?q=user%3Atd-shi+filename%3A.sh)
 
 - [About ulid.sh](./ulid/README.md)
 - [About toXPATH.sh](./toXPATH/README.md)
